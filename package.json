@@ -1,0 +1,30 @@
+{
+  "name": "hunger-banger",
+  "version": "1.0.0",
+  "description": "Food Ordering Application",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apoorvap432/Hunger-banger.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Apoorva Panwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apoorvap432/Hunger-banger/issues"
+  },
+  "homepage": "https://github.com/Apoorvap432/Hunger-banger#readme"
+}
