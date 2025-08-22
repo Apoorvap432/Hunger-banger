@@ -1,0 +1,101 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin: 0 auto;
+  display: block;
+}
+
+.header {
+  background-color: #f0f0f0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+}
+
+.logo-grp h2 {
+  padding-left: 28px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.search-container {
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 0;
+  display: flex;
+}
+
+.search-container input {
+  min-width: 250px;
+  padding: 10px;
+}
+
+.search-container input:focus {
+  outline: 0;
+}
+
+.search-container button {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.res-card {
+  box-sizing: border-box;
+  border: 1px solid #0000;
+  flex: calc(20% - 20px);
+  max-width: calc(20% - 20px);
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+  transition: all .3s ease-in-out;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  border: 1px solid #000;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+/*# sourceMappingURL=Hunger-banger.3a01df49.css.map */
